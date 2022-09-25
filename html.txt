@@ -21,3 +21,40 @@
 <a href="www.japonescareca" target="_blank"> </a> - Abrir nova aba
 
 <img src="foto" alt="descrição da foto para o narrador falar">
+
+//Tabela
+<table> </table> - Criar tabela
+    <tr> </tr> - Linha
+    <th> </th> - Coluna
+    <td> </td> - Informações
+
+
+//Listas
+<ul> </ul> - Lista não ordenada (sem numeração)
+    <li> - Itens
+
+<ol> </ol> - Lista ordenada (numerado)
+    <li> - itens
+
+
+<iframe src="site" width="" height="" title"" name="passar no target"> </iframe> - Mini navegador
+
+
+//Formulário
+<form for="id"> </form> - Formulário
+    <label> </label> - Legenda
+    <input id="id" type="text" placeholder"marca d'água" required> - Entrada de texto
+    <input id="passwd" type="password" placeholder="digite-sua-senha" required> - Entrada de senha
+    <input id="mail" type="email" placeholder="Email" required> - Entrada de email
+    <input type="submit" value="Enviar" required> - Botão de enviar
+
+    <input type="radio" id="id" name="" value=""> - Múltipla escolha
+    <input type="checkbox" id="id" name="" value=""> - Check
+
+    <select> </select> - Seleção
+        <option disabled selected value=""> </option> - Opção fantasma tipo placeholder
+        <option value=""> </option> - Opções
+
+    <textarea> </textarea> - Area de texto mais longa
+
+    <button> </button> - Botão 
