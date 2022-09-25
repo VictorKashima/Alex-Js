@@ -58,3 +58,21 @@
     <textarea> </textarea> - Area de texto mais longa
 
     <button> </button> - Botão 
+
+
+//Audio
+<audio controls controlslist="nodownload"> </audio> 
+    <source src="audio.mp3" type="audio/mpeg">
+
+
+//Video
+<video poster="img" autoplay controls controlslist="nodownload" disablepicinpicture nofullscreen> </video>
+    <source src="" type="video/mp4">
+
+
+
+<section> </section> - Seção
+<header> </header> - Topo, cabeçalho
+<nav> </nav> - Menu de navegação
+<footer> </footer> - Roda pé
+<article> </article> - Artigo
