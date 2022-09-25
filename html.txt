@@ -1,0 +1,23 @@
+// TAGS
+<!-- COMENTÁRIO --!>
+
+<b> </b> - Negrito
+<strong> </strong> - Negrito com sentido semântico
+<i> </i> - Itálico
+<hr> - Linha de divisão
+<br> - Quebra de Linha
+<small> </small> - Texto pequeno
+<del>< /del> - Riscado (deletado semanticamente)
+<sup>< /sup> - Expoente
+<sub> </sub> - Inferior
+<mark> </mark> - Marca Texto
+<abbr> </abbr> - Abreviação
+<address> </address> - Endereço (URL / físico)
+<cite> </cite> - Obra
+<q> </q> - Citação do que foi dito
+<blockquote> </blockquote> - Destaque no Texto
+<bdo dir="rtl/ltr"> </bdo> - Direção do texto
+
+<a href="www.japonescareca" target="_blank"> </a> - Abrir nova aba
+
+<img src="foto" alt="descrição da foto para o narrador falar">
