@@ -1,0 +1,6 @@
+. -> Chama a class // Pode se passar mais de uma class dentro do html
+
+# -> Chama o id
+
+* -> Seletor universal
+
