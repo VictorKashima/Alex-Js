@@ -15,11 +15,13 @@ body {
     position: fixed;
     height: auto;
     width: 100%;
-    background-image: linear-gradient(#E54D24, #e54e2450);
+    background-image: linear-gradient(35deg, #842910 5%, #E74E25 50%, #842910 95%);
 }
 
 nav {
+    text-shadow: 0 0 5px black;
     font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,10 +41,39 @@ nav ul li a {
 }
 
 nav ul li a:hover{
+    text-shadow: 0 0 5px white;
     color:rgb(220, 220, 220);
 }
 
+li.dropdown {
+    display: inline-block;
+    transition: .5s;
+}
+
+li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-image: linear-gradient(35deg, #842910, #E74E25);
+    width: 150px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: none;
+}
+
+.dropdown-content a {
+    font-size: 18px;
+    padding: 5px;
+    color: white;
+    display: block;
+    text-align: left;
+}
+
 .project-name {
+    box-shadow: 0 0 10px black;
     font-family: 'Rampart One', cursive;
     text-align: center;
     font-size: 50px;
@@ -84,11 +115,12 @@ abbr[title]{
 }
 
 .text {
+    margin: 5% 0%;
     color: white;
 }
 
 #footer{
-    margin-top: 3%;
+    margin: 3% 0%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -96,6 +128,7 @@ abbr[title]{
 }
 
 .button {
+    text-shadow: 0 0 5px black;
     font-size: 17px;
     font-family: 'Noto Sans JP';
     text-align: center;
@@ -109,6 +142,7 @@ abbr[title]{
 }
 
 .button:hover{
+    text-shadow: 0 0 3px white;
     font-size: 18px;
     font-weight: 900;
     background-color: #cf4620;
