@@ -2,70 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+* {
+    transition: .5s;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: rgb(30,30,30);
+    background-image: linear-gradient(45deg, red, red, red);
 }
 
 .navbar {
-    position: fixed;
-    margin-top: -5%;
-    background-image: linear-gradient(35deg, #842910 5%, #E74E25 50%, #842910 95%);
     height: auto;
     width: 100%;
-    display: inline;
+    background-image: linear-gradient(35deg, red, rgb(200, 0, 0), red);
 }
 
-nav ul li {
-    display: inline-block;
-    padding: 0 3%;
-    margin: 1.5%;
-    text-shadow: 0 0 5px black;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    list-style-type: none;
+.list {
+    list-style: none;
 }
 
 nav ul li a {
-    text-align: left;
+    font-family: "Montserrat";
+    font-weight: 900;
     color:white;
     text-decoration: none;
-    font-weight: bold;
-    transition: .5s; 
-}
-
-nav ul li a:hover{
-    text-shadow: 0 0 5px white;
-    color:rgb(220, 220, 220);
-}
-
-li.dropdown {
-    transition: .5s;
-}
-
-li.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-content {
-    position: absolute;
-    background-image: linear-gradient(35deg, #842910, #E74E25);
-    width: 150px;
-    border-bottom: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    display: none;
-}
-
-.dropdown-content a {
-    font-size: 18px;
-    padding: 5px;
-    color: white;
-    display: block;
-    text-align: left;
 }
 
 .project-name {
